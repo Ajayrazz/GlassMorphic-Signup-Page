@@ -14,7 +14,8 @@ body {
 .outer-box {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(189, 107, 107, 0.7401085434173669) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .inner-box {
@@ -64,7 +65,7 @@ body {
     margin-top: 4px;
 }
 
-.signup-body p input[type="submit"]{
+.signup-body p input[type="submit"] {
     background-color: #3498db;
     border: none;
     color: white;
